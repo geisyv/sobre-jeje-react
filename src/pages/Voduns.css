@@ -1,0 +1,122 @@
+:root {
+    --bg: #d9b07e;
+    --main-color: #008080;
+    --black: #13131a;
+    --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s linear;
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: var(--border);
+    width: 100%;
+    padding: 10px 4%;
+    background-color: var(--bg);
+    transition: top 0.3s ease-in-out;
+} 
+
+.header section{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.logo {
+    width: 5vw;
+    object-fit: contain; /* Ou cover */
+    object-position: center;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+    border-bottom: var(--border);
+    padding-bottom: 0.5;
+    font-size: 2rem;
+}
+
+.icon img{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.icon img:hover {
+    width: 35px;
+    height: 35px;
+}
+
+.panteoes {
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.panteao {
+    background-color: rgba(	180, 132, 83, 0.4);
+    margin-top: 2%;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.panteao h2 {
+    font-size: 2.2rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.panteao p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: var(--black);
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.img-panteao {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1.5rem;
+    border-radius: 8px;
+}
