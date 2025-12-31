@@ -1,18 +1,78 @@
-# React + Vite
+# 🌍 Site informativo sobre a nação Jeje-Mahi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto tem como objetivo reunir e divulgar informações sobre a história da nação Jeje-Mahi no Brasil, valorizando sua cultura, ancestralidade e contribuição para a formação da identidade afro-brasileira.
 
-Currently, two official plugins are available:
+A proposta é oferecer uma plataforma acessível e visualmente agradável, onde visitantes possam aprender mais sobre os fundamentos, tradições e trajetórias do povo Jeje-Mahi.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 🛠️ Tecnologias utilizadas
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **React + Vite**: estruturação e renderização da aplicação com alta performance
+- **React Router DOM**: navegação entre páginas (Home, História, Voduns, Terreiros, Bibliografia, Cantigas, Homenagens)
+- **CSS**: estilização responsiva e personalizada
+- **JavaScript (ES6+)**: interatividade e lógica da aplicação
 
-Note: This will impact Vite dev & build performances.
 
-## Expanding the ESLint configuration
+## 📂 Estrutura do projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+sobre-jeje-react/
+├─ src/
+│  ├─ components/
+│  │  └─ Header.jsx
+│  ├─ pages/
+│  │  ├─ Home.jsx
+│  │  ├─ Historia.jsx
+│  │  ├─ Voduns.jsx
+│  │  ├─ Terreiros.jsx
+│  │  ├─ Bibliografia.jsx
+│  │  ├─ Cantigas.jsx
+│  │  └─ Homenagens.jsx
+│  ├─ App.jsx
+│  └─ main.jsx
+├─ public/
+│  └─ imagens e assets
+├─ index.html
+└─ package.json
+
+## 🚀 Como rodar o projeto
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/sobre-jeje-react.git
+2. Entre na pasta do projeto:
+bash
+cd sobre-jeje-react
+
+3. Instale as dependências:
+bash
+npm install
+
+4. Rode o servidor de desenvolvimento:
+bash
+npm run dev
+
+5. Abra no navegador:
+Código
+http://localhost:5173
+
+
+📸 Imagens da aplicação
+### Página inicial (Home) ![Screenshot da Home](./public/screenshots/home.png) 
+### Página História ![Screenshot da História](./public/screenshots/historia.png) 
+### Página Voduns ![Screenshot dos Voduns](./public/screenshots/voduns.png) 
+### Página Terreiros Matrizes ![Screenshot das Terreiros](./public/screenshots/terreiros.png)
+### Página Bibliografia ![Screenshot das Bibliografia](./public/screenshots/bibliografia.png)
+### Página Cantigas ![Screenshot das Cantigas](./public/screenshots/cantigas.png)
+### Página Homenagens ![Screenshot das Homenagens](./public/screenshots/homenagens.png)
+
+
+✨ Funcionalidades
+Navegação entre diferentes páginas informativas
+Carrossel de imagens nos panteões Voduns
+Header dinâmico que esconde/mostra conforme o scroll
+Conteúdo organizado sobre história, tradições e cultura Jeje-Mahi
+
+
+📜 Licença
+Este projeto é de caráter informativo e cultural.
+Sinta-se livre para contribuir e compartilhar.
