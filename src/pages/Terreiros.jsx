@@ -30,7 +30,7 @@ export default function Terreiros() {
 
                 <div className="card-terreiro">
                     <div className="texto-terreiro">
-                        <h3>Zògodò Bogum Malê Rundó</h3>
+                        <h3>Zògbodò Malè Bogun Rundó</h3>
                         <p>
                             Localizado no bairro Engenho Velho, em Salvador - BA, fundado em
                             1858. Seu patrono é o Vodum Sogbo, e é conhecido como Terreiro do

@@ -6,7 +6,7 @@
     font-size: 10px;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     outline: none;
@@ -26,6 +26,7 @@ section {
     margin: 0 auto;
     max-width: 1200px;
 }
+
 .header {
     position: fixed;
     top: 0;
@@ -37,9 +38,9 @@ section {
     padding: 10px 4%;
     background-color: var(--bg);
     transition: top 0.3s ease-in-out;
-} 
+}
 
-.header section{
+.header section {
     display: flex;
     justify-items: center;
     justify-content: space-between;
@@ -49,12 +50,13 @@ section {
 
 .logo {
     width: 5vw;
-    object-fit: contain; /* Ou cover */
+    object-fit: contain;
+    /* Ou cover */
     object-position: center;
     cursor: pointer;
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
 }
@@ -72,7 +74,7 @@ section {
     font-size: 2rem;
 }
 
-.icon img{
+.icon img {
     margin: 1rem;
     cursor: pointer;
 }
@@ -83,30 +85,38 @@ section {
 }
 
 .panteoes {
-    padding-top: 8rem;
+    padding-top: 12rem;
     display: flex;
-    flex-direction: column;
-    gap: 4rem;
+    flex-wrap: wrap;
+    /* permite que os cards fiquem lado a lado */
+    gap: 2rem;
+    /* espaço entre os cards */
+    justify-content: center;
+    /* centraliza os cards */
 }
 
 .panteao {
-    background-color: rgba(	180, 132, 83, 0.4);
-    margin-top: 2%;
+    background-color: rgba(180, 132, 83, 0.4);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 350px;
+    /* controla a largura de cada card */
+    flex: 1 1 300px;
+    /* responsivo: ocupa espaço mas quebra linha se necessário */
+    text-align: center;
 }
 
 .panteao h2 {
     font-size: 2.2rem;
     color: var(--main-color);
     margin-bottom: 1rem;
-    text-align: center;
 }
 
 .panteao p {
     font-size: 1.6rem;
-    line-height: 2.6rem;
+    line-height: 2.4rem;
     color: var(--black);
     text-align: justify;
     margin-top: 1rem;
@@ -114,9 +124,32 @@ section {
 
 .img-panteao {
     width: 100%;
-    max-width: 800px;
+    max-width: 300px;
     height: auto;
     display: block;
     margin: 0 auto 1.5rem;
     border-radius: 8px;
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-btn {
+    background: var(--main-color);
+    color: #fff;
+    border: none;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 0 0.5rem;
+    transition: background 0.3s ease;
+}
+
+.carousel-btn:hover {
+    background: #006666;
 }

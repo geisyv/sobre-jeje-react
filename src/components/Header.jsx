@@ -11,6 +11,9 @@ export default function Header() {
                     <Link to="/historia">História</Link>
                     <Link to="/voduns">Voduns</Link>
                     <Link to="/terreiros">Terreiros Matrizes</Link>
+                    <Link to="/bibliografia">Bibliografia</Link>
+                    <Link to="/cantigas">Cantigas</Link>
+                    <Link to="/homenagens">Homenagens</Link>
                 </nav>
                 <div className="icon">
                     <img height="30" width="30" src="/img/icons8-search-50.png" alt="search" />
