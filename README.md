@@ -12,28 +12,6 @@ A proposta é oferecer uma plataforma acessível e visualmente agradável, onde 
 - **CSS**: estilização responsiva e personalizada
 - **JavaScript (ES6+)**: interatividade e lógica da aplicação
 
-
-## 📂 Estrutura do projeto
-
-sobre-jeje-react/
-├─ src/
-│  ├─ components/
-│  │  └─ Header.jsx
-│  ├─ pages/
-│  │  ├─ Home.jsx
-│  │  ├─ Historia.jsx
-│  │  ├─ Voduns.jsx
-│  │  ├─ Terreiros.jsx
-│  │  ├─ Bibliografia.jsx
-│  │  ├─ Cantigas.jsx
-│  │  └─ Homenagens.jsx
-│  ├─ App.jsx
-│  └─ main.jsx
-├─ public/
-│  └─ imagens e assets
-├─ index.html
-└─ package.json
-
 ## 🚀 Como rodar o projeto
 
 1. Clone este repositório:
